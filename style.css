@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+@media (max-width: 940px){
+.two {
+  display: none;
+}
+}
+@media (max-width: 940px){
+  .hidden {
+    display: flex;
+    width: 60%;
+  }
+}
+@media(min-width:940px){
+  .hidden{
+    display: none;
+    
+  }
+}
+@media (max-width: 940px){
+.title{
+    padding-top: 120px;
+    width: 100%;
+    justify-content: center;
+    
+}}
+
+
+
+@media (max-width: 940px){
+.title .content h2 {
+    font-size: 32px;
+    line-height: 1.35;
+    text-align: center;
+}
+}
+@media (max-width: 940px){
+  .title .content p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 940px){
+.title .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: auto;
+    width:100%;
+    margin-left: 0px;
+}
+}
+.wrapper {
+  background: #fff;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.img-container{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.logo{
+  width: 100%;
+  max-width: 150px;
+
+}
+.one {
+  display: flex;
+  width: 20%;
+  min-width: 180px;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  
+  width: 60%;
+}
+
+.alist{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+.three {
+  display: flex;
+  right: 0;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #6f7c95;
+  cursor: pointer;
+  width: 20%;
+  align-items: center;
+  justify-content: center ;
+}
+
+
+
+.text-center {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #6f7c95;
+  text-transform: capitalize;
+  border-bottom: 0;
+}
+
+ul {
+ display: flex;
+ align-items: center;
+ padding-inline-start: 0px;
+}
+
+li {
+  display: inline;
+  padding-inline: 5px;
+  font-size: 1.1vw;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #6f7c95;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.d-hero {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  padding-top: 250px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  transition: all 300ms ease-in-out;
+}
+.title .content {
+  text-align: left;
+  position: relative;
+  width: 50%;
+  height: 161px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+
+}
+/* .max1170 {
+  max-width: 1170px;
+  min-width:800px;
+  margin: 0 auto;
+} */
+
+.title .content h2 {
+  
+  font-weight: 300;
+  line-height: 1.24;
+  
+  color: #1f242e;
+  text-shadow: 0 3px 70px #000;
+}
+
+.title .content p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.67;
+  
+  margin: 20px 0 30px 0;
+  color: #1f242e;
+  text-shadow: 0 3px 70px #000;
+  width: 100%;
+}
+
+h2 {
+  display: block;
+  font-size: 2rem;
+  
+  font-weight: bold;
+}
+
+.btns {
+  background-color: #1f67f3;
+  color: #fff;
+  border: none;
+}
+.btn {
+  padding: 12px 18px;
+  border-radius: 22px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.2px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 300ms ease-in-out;
+}
+.btn {
+  margin-bottom: 0;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.btns:hover {
+  background-color: #0b4dcc;
+  color: #fff;
+  border: none;
+}
+
+.text-center li:hover {
+  color: #1f67f3;
+}
+
+.three:hover {
+  color: #1f67f3;
+}
+
